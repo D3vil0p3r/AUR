@@ -61,3 +61,5 @@ git commit -m "useful commit message"
 git push
 ```
 Tip: To keep the working directory and commits as clean as possible, create a [gitignore(5)](https://man.archlinux.org/man/gitignore.5) that excludes all files and force-add files as needed.
+
+Source: https://wiki.archlinux.org/title/AUR_submission_guidelines
