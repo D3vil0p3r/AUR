@@ -39,6 +39,7 @@ To build a package with dependencies unavailable from the repositories enabled i
 ```
  makechrootpkg -c -r $CHROOT -I build-dependency-1.0-1-x86_64.pkg.tar.xz -I required-package-2.0-2-x86_64.pkg.tar.xz
 ```
+Source: https://wiki.archlinux.org/title/DeveloperWiki:Building_in_a_clean_chroot
 
 ## Update AUR package
 Clone the package to be updated from AUR:
