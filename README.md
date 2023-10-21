@@ -72,4 +72,11 @@ git push
 ```
 Tip: To keep the working directory and commits as clean as possible, create a [gitignore(5)](https://man.archlinux.org/man/gitignore.5) that excludes all files and force-add files as needed.
 
+## Create new AUR package
+Just need to clone a non-existing package by:
+```
+git -c init.defaultbranch=master clone ssh://aur@aur.archlinux.org/non-existing-package.git
+```
+and follow all the instructions in the previous section.
+
 Source: https://wiki.archlinux.org/title/AUR_submission_guidelines
