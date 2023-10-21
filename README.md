@@ -3,6 +3,15 @@ Arch User Repository packages maintained by D3vil0p3r.
 
 All users are welcome to contribute on keeping them updated.
 
+## Create SSH configuration file
+To authenticate to AUR, you need to create a config file `~/.ssh/config` with the following content:
+```
+Host aur.archlinux.org
+  IdentityFile ~/.ssh/aur
+  User D3vil0p3r
+```
+because we must instruct the system to use our AUR keypair to authenticate.
+
 ## Setting SSH keys
 Create a new SSH key pair:
 ```
