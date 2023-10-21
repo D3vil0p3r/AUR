@@ -77,6 +77,10 @@ Just need to clone a non-existing package by:
 ```
 git -c init.defaultbranch=master clone ssh://aur@aur.archlinux.org/non-existing-package.git
 ```
+You should get a message like:
+```
+warning: You appear to have cloned an empty repository.
+```
 and follow all the instructions in the previous section.
 
 Source: https://wiki.archlinux.org/title/AUR_submission_guidelines
