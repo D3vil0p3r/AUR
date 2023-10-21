@@ -66,7 +66,7 @@ To upload or update a package, [add](https://wiki.archlinux.org/title/Git#Stagin
 For example:
 ```
 makepkg --printsrcinfo > .SRCINFO
-git add PKGBUILD .SRCINFO
+git add PKGBUILD .SRCINFO <any other file of source to push>
 git commit -m "useful commit message"
 git push
 ```
