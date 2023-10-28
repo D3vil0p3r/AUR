@@ -55,6 +55,12 @@ Clone the package to be updated from AUR:
 ```
 git -c init.defaultbranch=master clone ssh://aur@aur.archlinux.org/pkgbase.git
 ```
+If it is asked:
+```
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+type `yes`.
+
 When releasing a new version of the packaged software, update the [pkgver](https://wiki.archlinux.org/title/Pkgver) or [pkgrel](https://wiki.archlinux.org/title/PKGBUILD#pkgrel) variables to notify all users that an upgrade is needed. Do not update those values if only minor changes to the [PKGBUILD](https://wiki.archlinux.org/title/PKGBUILD) such as the correction of a typo are being published.
 
 Do not commit mere `pkgver` bumps for [VCS packages](https://wiki.archlinux.org/title/VCS_package_guidelines). They are not considered out of date when the upstream has new commits. Only do a new commit when other changes are introduced, such as changing the build process.
